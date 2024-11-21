@@ -43,6 +43,8 @@ To access the Django admin interface, create a superuser:
 #### 6. Run the Development Server
 `python manage.py runserver`
 
+#### The admin can manage the OAuth keys in the admin panel in the social accounts table as it is not being created in the settings
+
 Open your browser and navigate to http://127.0.0.1:8000/api/tasks to access the API metods.
 
 #### API Endpoints
